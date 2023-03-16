@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lomake esimerkki</title>
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="cssform.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <div class="main-container">
+                <div class="item">
+                    <h1>Contact information</h1>
+                    <p>Etunimi:&nbsp;&nbsp;&nbsp;&nbsp; </label>
+                        <input type="text" id="fname" name="fname">
+                    </p>
+                </div>
+                <div class="item">
+                    <p><label>Sukunimi:&nbsp; </label>
+                        <input type="text" id="lname" name="lname">
+                    </p>
+                </div>
+                <div class="item">
+                    <p><label>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+                        <input type="text" id="mail" email="mail">
+                        <input type="checkbox">
+                        <label>Email</label>
+                    </p>
+                </div>
+                <div class="item">
+                    <p><label>Telephone:</label>
+                        <input type="text" id="phone" phone="phone">
+                        <input type="checkbox">
+                        <label>Telephone</label>
+                    </p>
+                </div>
+
+        </fieldset>
+    </form>
+    <fieldset>
+        <div class="main-container">
+            <div class="item">
+                <h1>Kerro veli tähän</h1>
+                <p>Message subject:
+                    <input type="text" id="sub" name="sub">
+                </p>
+            </div>
+            <div class="item">
+                <p><textarea name="message" rows="15" cols="44">
+                </textarea>
+                </p>
+            </div>
+            <div class="item">
+                <p><label>Attach a file</label>
+                    <input type="file">
+                </p>
+            </div>
+            <div class="item">
+                <p><input type="submit" value="Send">
+                </p>
+            </div>
+
+    </fieldset>
+
+</body>
+
+</html>
